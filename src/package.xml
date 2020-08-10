@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>AppMenu</name>
+    <members>AppSwitcher</members>
+  </types>
+  <types>
+    <name>CustomApplication</name>
+    <members>LWC_Training</members>
+  </types>
+  <types>
+    <name>AuraDefinitionBundle</name>
+    <members>contactListCmp</members>
+  </types>
+  <types>
+    <name>ApexClass</name>
+    <members>ContactController</members>
+  </types>
+  <types>
+    <name>FlexiPage</name>
+    <members>ContactPage</members>
+    <members>LWC_Training_UtilityBar</members>
+  </types>
+  <types>
+    <name>ApexPage</name>
+    <members>WelcomeMsg</members>
+  </types>
+  <types>
+    <name>PermissionSet</name>
+    <members>LWC_PS</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+  </types>
+  <types>
+    <name>StaticResource</name>
+    <members>helloworld</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>ContactPage</members>
+  </types>
+  <version>49.0</version>
+</Package>
