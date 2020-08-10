@@ -1,0 +1,11 @@
+<aura:component implements="flexipage:availableForAllPageTypes" controller="ContactController" access="global" >
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
+    <aura:attribute name="contactList" type="List"/>
+    <lightning:card iconName="standard:contact" title="Contacts">
+        <div class="slds-p-around_medium">
+        <aura:iteration items="{!v.contactList}" var="c">
+            {!c.Name}<br/>
+        </aura:iteration>
+            </div>
+    </lightning:card>
+</aura:component>

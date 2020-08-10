@@ -1,0 +1,9 @@
+<apex:page >
+    <center>
+        <img src="{!$Resource.helloworld}"/>
+        
+        <br/><br/>
+        <b>This is a Visualforce page
+        </b>
+    </center>
+</apex:page>
